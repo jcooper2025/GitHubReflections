@@ -1,0 +1,82 @@
+REF1:
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+A:
+********
+It shows the specific line where there are differences. You still have to search for 
+the differences within those lines (like the line with "spacr" instead of "space") 
+but it reduces the work needed.
+*********
+
+REF2:
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+A:
+*******
+When something goes wrong you can check the previous versions where that error
+did not occur to see the change that might be the cause of the error. Also,
+this allows you to always have a working version to go back to.
+*******
+
+REF3:
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+A:
+******
+When you choose your commits and saves you can select the "granularity" of the revisions.
+Having an autosave feature would make it difficult to track versions. Also, it makes
+it more difficult to dump changes you might not want.
+*******
+
+REF4:
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+A:
+******
+Google DOCs is not designed as a repository system. It is mainly for documentation, not 
+code. Most documentation does not have dependencies across different files. Since files
+for development have dependencies on each other it is necessary to make sure that the
+proper versions are bundled together.
+******
+
+REF5:
+How can you use the commands git log and git diff to view the history of files?
+
+A:
+******
+Use git log to find the commit id's for the changes you are looking for. After finding 
+the changes look for the time stamp for the version you are considering to be the "base".
+Run git diff with these two id's using to base id as the previous version. It is more
+helpful to set it up so the differences show up in color. Use the command:
+$git config --global color.ui auto
+to highlight the changes in color.
+******
+
+REF6:
+How might using version control make you more confident to make changes that
+could break something?
+
+A:
+**********
+I would be much more willing to make large scale changes in my code. I always know
+I can revert to a working copy and that the copy will never be screwed up. 
+This will also allow me to show my code and share it other people via a git link.
+**********
+
+REF7:
+Now that you have your workspace set up, what do you want to try using Git for?
+
+A:
+*********
+The main thing I will use it for is to store my class code. I will also begin to work on
+my thesis code and other projects like OS problems and teachable agents.
+This means I can act more like a professional developer instead of some guy who codes
+at home but is not that good.
+I expect I will also improve my personal project code since someone else could use
+or view it.
+********
