@@ -1,0 +1,21 @@
+
+***********
+REF 01
+Q01:
+What happens when you initialize a repository? Why do you need to do it?
+
+A01:
+An empty resposity is created locally. Nothing is added but the file "infrastructure" for the repository is put in place.
+If you don't have the file infrastructure in place you there is nothing to add files to when you make a commit. 
+***********
+
+***********
+REF 02
+Q02:
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A02:
+The staging area is where you load things that you are going to commit. It is not designed to be an area where you make file modifications. The working area is where you do the actual work.
+The value it offers is that you can organize the files in the commit before and then do the commit at one time. 
+Can you have a single staging area for multiple workiong directories? i.e. can you have multiple working directories for a project but just one staging area?
+**********
