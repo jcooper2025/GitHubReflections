@@ -19,3 +19,48 @@ The staging area is where you load things that you are going to commit. It is no
 The value it offers is that you can organize the files in the commit before and then do the commit at one time. 
 Can you have a single staging area for multiple workiong directories? i.e. can you have multiple working directories for a project but just one staging area?
 **********
+
+**********
+REF 03
+Q03:
+HOw can you use the staging area to make sure you have one commit per logic al change?
+
+A03:
+You can add all of the files that you want to be a part of the commit to the stage area. Then run a $git diff --staged and make sure that all of the differences are related to the logical change you are considering.
+***********
+
+***********
+REF 04
+Q04:
+What are some situattions when branches would be helpful in keeping your history organized? How would branches help?
+
+A04:
+Introducing changes or support in code that is for a specific customer or region. Using branches means that the changes introduced on one branch do not have to be tested on the main branch.
+*************
+
+*************
+REF 05
+Q05:
+How do the diagrams help you visualize the branch structure?
+
+A05:
+SInce the branching structure is difficult to describe verbally it is much more helpful to draw a picture of the branching structure, label it and then point to different parts.
+*************
+
+*************
+REF 06
+Q06:
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A06:
+
+*************
+
+*************
+REF 07
+Q07:
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+A07:
+
+*************
