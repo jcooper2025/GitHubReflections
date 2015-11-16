@@ -1,0 +1,8 @@
+*****
+REF01
+Q01:
+When would you want to use a remote repository rather than keeping all your work local?
+
+A01:
+If you want to share the work or have it accessible from different locations. Even if I am the only person using 
+it this means I would not have to have a usb drive. I can just commit&push my changes when I am done and fetch them at the new location.
