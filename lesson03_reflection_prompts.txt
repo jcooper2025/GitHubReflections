@@ -22,4 +22,12 @@ Describe the differences between forks, clones, and branches. When would you use
 
 A03:
 Forks are only used on GitHub. I would only use a Fork when I wanted to copy code and did not intend to put my changes back in the original repo. I would also want to give credit to the original developer. I would use clone when I wanted a copy of a repo on my local machine. If I was working on a group project or my own project in different places. I would use branch when I wanted to make a local copy to try things out. I am not sure yet how I would incorporate branches into GitHub repo's.
+
+******
+REF04
+Q04:
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A04:
+This allows you to would independently of the actual remote if you do not have access to the internet. This means you can do all the work you would normally do if you had access to the main remote on Github. Branching, reverting or cloning new repositories locally.
  
