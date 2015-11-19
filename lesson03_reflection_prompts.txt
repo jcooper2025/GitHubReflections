@@ -30,4 +30,12 @@ What is the benefit of having a copy of the last known state of the remote store
 
 A04:
 This allows you to would independently of the actual remote if you do not have access to the internet. This means you can do all the work you would normally do if you had access to the main remote on Github. Branching, reverting or cloning new repositories locally.
- 
+
+******
+REF05
+Q05:
+How would you collaborate without Git or GitHub? What would be easier, and what would be harder?
+
+A05:
+I would use a network drive or dropbox account. Or USB drives. It would be easier to come up to speed for a new person. There is nothing to learn just copy files. It would be much harder to keep track of changes. Actually, it would be impossible and if I were collaborating I would resist doing so without GitHub or some other version control.
+*********
